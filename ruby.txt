@@ -1,0 +1,28 @@
+Metodo para ordenar un array al reverso:
+reverse
+
+Palabra que cierra bloques en ruby:
+end
+
+Palabra para definir una clase:
+class
+
+sentencia para poder leer una variable y a la vez editar su valor:
+attr_accessor
+
+conjunto de datos que se accesan a traves de claves:
+hash
+
+conjunto de datos que se accesan a traves de posiciones:
+array
+
+Metodo para convertir variable a string:
+to_s
+
+Metodo para convertir variable a int:
+to_i
+
+
+
+
+
