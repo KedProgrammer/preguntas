@@ -78,13 +78,13 @@ class Vista
       puts "=================================="
       puts "Bienvenido al cuestionario de ruby"
       puts "=================================="
-      @controlador.mandar_archivo("..\\Preguntas\\ruby.txt")
+      @controlador.mandar_archivo("..\\preguntas-master\\ruby.txt")
 
     elsif @input == "dos" or @input.to_i == 2
       puts "======================================="
       puts "Bienvenido al cuestionario de javascript"
       puts "======================================="
-      @controlador.mandar_archivo("..\\Preguntas\\javascript.txt")
+      @controlador.mandar_archivo("..\\preguntas-master\\javascript.txt")
     elsif @input == "tres"
       puts "Gracias por participar"
       exit
