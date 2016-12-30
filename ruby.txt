@@ -7,8 +7,8 @@ end
 Palabra para definir una clase:
 class
 
-sentencia para poder leer una variable y a la vez editar su valor:
-attr_accessor
+Framework de ruby para crear aplicaciones web:
+ruby on rails
 
 conjunto de datos que se accesan a traves de claves:
 hash

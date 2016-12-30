@@ -24,6 +24,26 @@ class Controlador
   def mandar_archivo(file)
     @modelo.file = file
   end
+
+  #metodo que pasa a la vista los puntos sumados
+  def getpuntos
+    @modelo.puntos
+  end
+
+#valida que sea el primer intento para sumar el punto
+  def primerIntento?
+    @modelo.primer?
+  end
+#resetea la variable que controla el primer intento a true
+  def nueva_pregunta
+    @modelo.primer_intento = true
+  end
+
+  #resetea el puntaje
+  def reset
+    @modelo.puntos = 0
+
+  end
 #se instancia el controlador y se inicia la aplucacion
   controlador = Controlador.new
   @@vista.start
